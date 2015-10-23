@@ -1,12 +1,12 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 /*
-Theme Name:Mark Theme
-Theme URI:http://www.sutlej.net
-Description: Theme for Mark Reynolds Architect website 
-Author: Team Sutlej
-Author URI:http://www.sutlej.net
-Version:0.1
+Theme Name:Removals Pro
+Theme URI:http://www.frogsthemes.com
+Description:
+Author:FrogsThemes.com
+Author URI:http://www.frogsthemes.com
+Version:1.0.3
 */
 
 img {
@@ -34,7 +34,7 @@ a[href^="mailto"]:hover {color:inherit;}
 
 /* === TYPOGRAPHY === */
 h1,h2,h3,h4,h5,h6 {font-family:'Open Sans', sans-serif;font-weight:600;color:#333;margin:0 0 30px 0;}
-h2 {font-size:40px;}
+h2 {font-size:40px;    text-align: center;}
 h3 {font-size:21px;line-height:28px;}
 h4 {font-size:18px;line-height:24px;}
 h4 span {display:block;color:#999;font-size:13px;line-height:14px;padding-top:5px;text-transform:uppercase;letter-spacing:0.1em;}
@@ -135,7 +135,10 @@ textarea { overflow:auto; }
 /* === BUTTONS === */
 .btn {font-weight:600;border:2px solid transparent;padding:11px 17px;font-size:13px;line-height:13px;background:transparent;text-transform:uppercase;letter-spacing:0.1em;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-transition:all .1s ease;transition:all .1s ease;color:#333;}
 .btn:hover,
-.btn:focus {color:#6294e7;border-color:#6294e7;text-decoration:none;outline:none;}
+.btn:focus {border-color:#D4DA84;
+    text-decoration:none;
+    outline:none;
+    color:#6F625A;}
 .btn:active,
 .btn.active {outline:0;background-image:none;-webkit-box-shadow:none;box-shadow:none;}
 .btn.disabled,
@@ -147,7 +150,6 @@ input::-moz-focus-inner {border:0;padding:0;margin-top:-3px;margin-bottom:-3px;}
 .btn-default:focus,
 .btn-default:active,
 .btn-default.active {background:transparent;}
-.btn-primary {background:#EA623D;border-color:#EA623D;color:#fff;}
 .btn-primary {
     background-color:#6F625A;
     border-color:#6F625A;
